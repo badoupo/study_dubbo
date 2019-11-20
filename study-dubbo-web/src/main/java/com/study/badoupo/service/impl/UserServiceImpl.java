@@ -7,7 +7,6 @@ import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * <p>
@@ -21,10 +20,10 @@ import java.util.concurrent.locks.ReentrantLock;
 public class UserServiceImpl implements IUserService {
     @Reference
     private IUserApi userApi;
-    ReentrantLock lock;
 
     @Override
     public List<UserResDto> list() {
-        return userApi.list();
+        List<UserResDto> result = userApi.list();
+        return result;
     }
 }

@@ -2,10 +2,11 @@ package com.study.badoupo.res;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Data
-public class UserResDto {
+public class UserResDto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
