@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study-dubbo-api" />
+        <module name="study-dubbo-provider" />
+        <module name="study-dubbo-dto" />
+        <module name="study-dubbo-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="study-dubbo" target="1.8" />
+      <module name="study-dubbo-api" target="1.8" />
+      <module name="study-dubbo-dto" target="1.8" />
+      <module name="study-dubbo-provider" target="1.8" />
+      <module name="study-dubbo-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="study-dubbo-api" options="-parameters" />
+      <module name="study-dubbo-dto" options="-parameters" />
+      <module name="study-dubbo-provider" options="-parameters" />
+      <module name="study-dubbo-web" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+server:
+  port: 18081
+  servlet:
+    context-path: /badoupo
+spring:
+  application:
+    name: badoupo-web
+dubbo:
+  application:
+    name: study-dubbo-consumer
+  registry:
+    address: zookeeper://192.168.129.6:2181
+  protocol:
+    name: dubbo
+    port: 20880
+
+
+swagger:
+  enable: true

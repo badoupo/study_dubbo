@@ -1,0 +1,27 @@
+server:
+  port: 18080
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: study-dubbo-provider
+  datasource:
+    username: root
+    password: Abc@123456
+    url: jdbc:mysql://192.168.129.6:3306/study?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name : com.mysql.jdbc.Driver
+
+dubbo:
+  #应用配置，用于配置当前应用信息，不管该应用是提供者还是消费者
+  application:
+    name: study-dubbo-provider
+  #注册中心配置，用于配置连接注册中心相关信息
+  registry:
+    address: zookeeper://192.168.129.6:2181
+  #协议配置，用于配置提供服务的协议信息，协议由提供方指定，消费方被动接受
+  protocol:
+    name: dubbo
+    port: 20880
+  #扫描包
+  scan:
+    base-packages: com.study.badoupo

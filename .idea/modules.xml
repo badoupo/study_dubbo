@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo.iml" filepath="$PROJECT_DIR$/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-dubbo-api/study-dubbo-api.iml" filepath="$PROJECT_DIR$/study-dubbo-api/study-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-dubbo-dto/study-dubbo-dto.iml" filepath="$PROJECT_DIR$/study-dubbo-dto/study-dubbo-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-dubbo-provider/study-dubbo-provider.iml" filepath="$PROJECT_DIR$/study-dubbo-provider/study-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-dubbo-web/study-dubbo-web.iml" filepath="$PROJECT_DIR$/study-dubbo-web/study-dubbo-web.iml" />
+    </modules>
+  </component>
+</project>
