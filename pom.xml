@@ -12,14 +12,19 @@
     <groupId>study.dubbo</groupId>
     <artifactId>dubbo</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>${study.dubbo.version}</version>
     <modules>
         <module>study-dubbo-web</module>
         <module>study-dubbo-api</module>
         <module>study-dubbo-dto</module>
         <module>study-dubbo-provider</module>
     </modules>
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <study.dubbo.version>0.0.1-SNAPSHOT</study.dubbo.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
