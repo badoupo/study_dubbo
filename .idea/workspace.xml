@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd3c08c1-4f55-4ea6-bf20-e3f3dd46b737" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dubbo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-dubbo-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dubbo-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-dubbo-dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-dubbo-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dubbo-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-dubbo-web/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd3c08c1-4f55-4ea6-bf20-e3f3dd46b737" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/study-dubbo-service-provider/target/" />
     <ignored path="$PROJECT_DIR$/study-dubbo-service-dto/target/" />
@@ -94,20 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/study-dubbo-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="266">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="95">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -131,6 +124,7 @@
       <find>-service</find>
       <find>service</find>
       <find>&lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;</find>
+      <find>1.0-SNAPSHOT</find>
     </findStrings>
     <dirStrings>
       <dir>D:\workspace\study-dubbo\study-dubbo-web</dir>
@@ -152,11 +146,11 @@
         <option value="$PROJECT_DIR$/study-dubbo-web/src/main/java/com/study/badoupo/WebApplication.java" />
         <option value="$PROJECT_DIR$/study-dubbo-web/src/main/java/com/study/badoupo/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/study-dubbo-dto/src/main/java/com/study/badoupo/res/UserResDto.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/study-dubbo-web/pom.xml" />
         <option value="$PROJECT_DIR$/study-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/study-dubbo-dto/pom.xml" />
         <option value="$PROJECT_DIR$/study-dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/study-dubbo-web/pom.xml" />
       </list>
     </option>
   </component>
@@ -364,7 +358,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574258001955</updated>
-      <workItem from="1574258004585" duration="7930000" />
+      <workItem from="1574258004585" duration="8824000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1574265574485</created>
@@ -387,15 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574346967153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build">
+      <created>1574348244592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574348244592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7930000" />
+    <option name="totallyTimeSpent" value="8824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -403,7 +403,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28217158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28217158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -415,8 +415,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25318247" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22521247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25212464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22521247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -570,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-dubbo-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study-dubbo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -600,8 +593,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="95">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-dubbo-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
